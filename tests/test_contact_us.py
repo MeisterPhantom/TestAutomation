@@ -1,4 +1,5 @@
 from modules.pages.contact_us import ContactUsPage
+from tests.assertions import *
 from configurations.conftest import *
 import pytest
 
@@ -12,3 +13,4 @@ import pytest
 def test_form_contact_us(browser, email, message, order):
     contact = ContactUsPage(browser)
     contact.send_form(email, message, order)
+    assert_form_contact_us(contact.get_text_result_send_form())

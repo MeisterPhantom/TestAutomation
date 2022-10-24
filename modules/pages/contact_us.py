@@ -5,6 +5,9 @@ class ContactUsPage:
     def __init__(self, browser):
         self.browser = browser
 
+    def get_text_result_send_form(self):
+        return self.browser.find_element(*ContactUsLocators.RESULT).text
+
     def select_attach_file(self):
         self.browser.find_element(*ContactUsLocators.ATTACH_FILE_FIELD).click()
 

@@ -92,3 +92,128 @@ console.warn: LoginRecipes: "Falling back to a synchronous message for: http://a
 Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
 console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2009\"  data: no]"
 Sandbox: Unexpected EOF, op 0 flags 00 path /proc/cpuinfo
+1666626707380	geckodriver	INFO	Listening on 127.0.0.1:56605
+1666626707383	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "53075" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile5NVIDu"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1666626707814	Marionette	INFO	Marionette enabled
+1666626707817	Marionette	INFO	Listening on port 42827
+Read port: 42827
+WebDriver BiDi listening on ws://127.0.0.1:53075
+1666626707924	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile5NVIDu/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://127.0.0.1:53075/devtools/browser/af0d47a6-92b5-49e8-8d94-c66072d70bc0
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://automationpractice.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://automationpractice.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://automationpractice.com."
+1666626754380	Marionette	INFO	Stopped listening on port 42827
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2009\"  data: no]"
+Sandbox: Unexpected EOF, op 0 flags 00 path /proc/cpuinfo
+1666627042454	geckodriver	INFO	Listening on 127.0.0.1:56487
+1666627042458	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "59265" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileNiBy2G"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1666627042919	Marionette	INFO	Marionette enabled
+1666627042923	Marionette	INFO	Listening on port 34749
+Read port: 34749
+WebDriver BiDi listening on ws://127.0.0.1:59265
+1666627043010	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileNiBy2G/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://127.0.0.1:59265/devtools/browser/33f739f4-99fb-4f74-8133-22ae3a0fb209
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://automationpractice.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://automationpractice.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://automationpractice.com."
+1666627076294	Marionette	INFO	Stopped listening on port 34749
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2009\"  data: no]"
+Sandbox: Unexpected EOF, op 0 flags 00 path /proc/cpuinfo
+1666627114076	geckodriver	INFO	Listening on 127.0.0.1:43281
+1666627114081	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "51129" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofiler9qOeH"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1666627114548	Marionette	INFO	Marionette enabled
+1666627114551	Marionette	INFO	Listening on port 34991
+Read port: 34991
+WebDriver BiDi listening on ws://127.0.0.1:51129
+1666627114688	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofiler9qOeH/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://127.0.0.1:51129/devtools/browser/208b3da6-259e-4aac-a310-62783229be42
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://automationpractice.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://automationpractice.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://automationpractice.com."
+1666627148689	Marionette	INFO	Stopped listening on port 34991
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2009\"  data: no]"
+Sandbox: Unexpected EOF, op 0 flags 00 path /proc/cpuinfo
+1666627489838	geckodriver	INFO	Listening on 127.0.0.1:41509
+1666627489842	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "42179" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilejHFAWv"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1666627490287	Marionette	INFO	Marionette enabled
+1666627490291	Marionette	INFO	Listening on port 39031
+Read port: 39031
+WebDriver BiDi listening on ws://127.0.0.1:42179
+1666627490396	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilejHFAWv/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://127.0.0.1:42179/devtools/browser/0d89a473-5c18-44e9-8e29-2211cf130485
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://automationpractice.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://automationpractice.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://automationpractice.com."
+1666627530183	Marionette	INFO	Stopped listening on port 39031
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2009\"  data: no]"
+Sandbox: Unexpected EOF, op 0 flags 00 path /proc/cpuinfo
+1666627730335	geckodriver	INFO	Listening on 127.0.0.1:38673
+1666627730339	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "55249" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileKxkVeF"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1666627730803	Marionette	INFO	Marionette enabled
+1666627730806	Marionette	INFO	Listening on port 36899
+Read port: 36899
+WebDriver BiDi listening on ws://127.0.0.1:55249
+1666627730893	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileKxkVeF/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://127.0.0.1:55249/devtools/browser/0d6977a6-8540-4369-b23d-512a19597018
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://automationpractice.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://automationpractice.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://automationpractice.com."
+1666627778884	Marionette	INFO	Stopped listening on port 36899
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2009\"  data: no]"
+Sandbox: Unexpected EOF, op 0 flags 00 path /proc/cpuinfo
+1666629294733	geckodriver	INFO	Listening on 127.0.0.1:56833
+1666629294737	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "41211" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileomNUbr"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1666629295171	Marionette	INFO	Marionette enabled
+1666629295174	Marionette	INFO	Listening on port 33843
+Read port: 33843
+WebDriver BiDi listening on ws://127.0.0.1:41211
+1666629295278	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileomNUbr/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://127.0.0.1:41211/devtools/browser/6f4dd643-a702-4a8a-9897-2eb9df485754
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://automationpractice.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://automationpractice.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://automationpractice.com."
+1666629316447	Marionette	INFO	Stopped listening on port 33843
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2009\"  data: no]"

@@ -32,5 +32,5 @@ source ./path/virtual/environment/bin/activate
 ### 2 - Run tests
 5 - Execute following command in the root of project folder
 ```
-python -m pytest ./Tests
+python -m pytest ./tests
 ```
