@@ -217,3 +217,272 @@ console.warn: LoginRecipes: "Falling back to a synchronous message for: http://a
 1666629316447	Marionette	INFO	Stopped listening on port 33843
 Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
 console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2009\"  data: no]"
+1668213517081	geckodriver	INFO	Listening on 127.0.0.1:36767
+1668213517591	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "60325" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileI53YkC"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1668213518194	Marionette	INFO	Marionette enabled
+1668213518198	Marionette	INFO	Listening on port 38049
+Read port: 38049
+WebDriver BiDi listening on ws://127.0.0.1:60325
+1668213518334	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileI53YkC/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:60325/devtools/browser/291f886e-e06d-45a0-8aa6-a54cbf2d4476
+1668213530167	Marionette	INFO	Stopped listening on port 38049
+Sandbox: Unexpected EOF, op 0 flags 00 path /proc/cpuinfo
+1668765609766	geckodriver	INFO	Listening on 127.0.0.1:47615
+1668765610275	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "44871" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileN87OXf"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1668765611010	Marionette	INFO	Marionette enabled
+1668765611016	Marionette	INFO	Listening on port 38335
+Read port: 38335
+WebDriver BiDi listening on ws://127.0.0.1:44871
+1668765611147	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileN87OXf/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:44871/devtools/browser/116a16a2-3f9d-4650-9d3e-4b221bcbc8f7
+1668765622824	Marionette	INFO	Stopped listening on port 38335
+Sandbox: Unexpected EOF, op 0 flags 00 path /proc/cpuinfo
+1668781898004	geckodriver	INFO	Listening on 127.0.0.1:50177
+1668781898512	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "57707" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilecZBFES"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1668781899225	Marionette	INFO	Marionette enabled
+1668781899229	Marionette	INFO	Listening on port 46235
+Read port: 46235
+WebDriver BiDi listening on ws://127.0.0.1:57707
+1668781899371	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilecZBFES/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:57707/devtools/browser/989910de-9f5c-4223-9364-e23f2191996f
+1668781911171	Marionette	INFO	Stopped listening on port 46235
+Sandbox: Unexpected EOF, op 0 flags 00 path /proc/cpuinfo
+1668785934300	geckodriver	INFO	Listening on 127.0.0.1:36889
+1668785934303	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "51191" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile9VHP6Q"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1668785934814	Marionette	INFO	Marionette enabled
+1668785934819	Marionette	INFO	Listening on port 38439
+Read port: 38439
+WebDriver BiDi listening on ws://127.0.0.1:51191
+1668785934951	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile9VHP6Q/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:51191/devtools/browser/8c22d514-4e8e-4751-ae69-933d54b6cc18
+1668785940380	Marionette	INFO	Stopped listening on port 38439
+JavaScript error: resource://gre/modules/Sqlite.sys.mjs, line 1106: Error: Sqlite.jsm has been shutdown. Cannot open connection to: /tmp/rust_mozprofile9VHP6Q/protections.sqlite
+1668785992914	geckodriver	INFO	Listening on 127.0.0.1:58611
+1668785992918	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "39163" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile1AUpeh"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1668785993421	Marionette	INFO	Marionette enabled
+1668785993424	Marionette	INFO	Listening on port 46479
+Read port: 46479
+WebDriver BiDi listening on ws://127.0.0.1:39163
+1668785993564	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile1AUpeh/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:39163/devtools/browser/ce0223c3-3831-4b00-90bb-8c491f38eed2
+JavaScript error: https://forms.ontraport.com/v2.4/include/formEditor/genjs-v3.php?uid=p2c215361f15&method=script&randClass=moon-ray-form-placeholder-48679, line 58: TypeError: jQuery(...).moonrayCaptcha is not a function
+JavaScript error: https://forms.ontraport.com/v2.4/include/formEditor/genjs-v3.php?uid=p2c215361f18&method=script&randClass=moon-ray-form-placeholder-65769, line 58: TypeError: jQuery(...).moonrayCaptcha is not a function
+JavaScript error: https://forms.ontraport.com/v2.4/include/formEditor/genjs-v3.php?uid=p2c215361f16&method=script&randClass=moon-ray-form-placeholder-67202, line 58: TypeError: jQuery(...).moonrayCaptcha is not a function
+JavaScript error: https://forms.ontraport.com/v2.4/include/formEditor/genjs-v3.php?uid=p2c215361f30&method=script&randClass=moon-ray-form-placeholder-62959, line 58: TypeError: jQuery(...).moonrayCaptcha is not a function
+1668785999024	Marionette	INFO	Stopped listening on port 46479
+JavaScript error: resource://gre/modules/Sqlite.sys.mjs, line 1106: Error: Sqlite.jsm has been shutdown. Cannot open connection to: /tmp/rust_mozprofile1AUpeh/protections.sqlite
+1668786044574	geckodriver	INFO	Listening on 127.0.0.1:44885
+1668786044580	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "43575" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilevFp6KW"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1668786045092	Marionette	INFO	Marionette enabled
+1668786045096	Marionette	INFO	Listening on port 37737
+Read port: 37737
+WebDriver BiDi listening on ws://127.0.0.1:43575
+1668786045228	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilevFp6KW/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:43575/devtools/browser/f66a615b-a28d-4b7a-a174-b6619d0c7d01
+JavaScript error: https://forms.ontraport.com/v2.4/include/minify/?g=genjs-v3, line 140: TypeError: $.widget is not a function
+1668786051232	Marionette	INFO	Stopped listening on port 37737
+JavaScript error: resource://gre/modules/Sqlite.sys.mjs, line 1106: Error: Sqlite.jsm has been shutdown. Cannot open connection to: /tmp/rust_mozprofilevFp6KW/protections.sqlite
+1668786145074	geckodriver	INFO	Listening on 127.0.0.1:38893
+1668786145078	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "51927" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileyrfKZP"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1668786145575	Marionette	INFO	Marionette enabled
+1668786145579	Marionette	INFO	Listening on port 33523
+WebDriver BiDi listening on ws://127.0.0.1:51927
+Read port: 33523
+1668786145794	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileyrfKZP/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:51927/devtools/browser/23855b4e-4f65-443a-9bce-8207440570e3
+JavaScript error: https://v6i7z7i8.rocketcdn.me/wp-content/themes/forstron/assets/js/custom-js.js?ver=1.0.0, line 6: TypeError: jQuery(...).slick is not a function
+JavaScript error: https://forms.ontraport.com/v2.4/include/formEditor/genjs-v3.php?uid=p2c215361f14&method=script&randClass=moon-ray-form-placeholder-50601, line 58: TypeError: jQuery(...).moonrayCaptcha is not a function
+JavaScript error: https://forms.ontraport.com/v2.4/include/minify/?g=genjs-v3, line 140: TypeError: $.widget is not a function
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.hexacta.com."
+1668786155966	Marionette	INFO	Stopped listening on port 33523
+Sandbox: Unexpected EOF, op 0 flags 00 path /proc/cpuinfo
+1668786303708	geckodriver	INFO	Listening on 127.0.0.1:53849
+1668786303712	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "53761" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilempUUtj"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1668786304222	Marionette	INFO	Marionette enabled
+1668786304226	Marionette	INFO	Listening on port 44053
+Read port: 44053
+WebDriver BiDi listening on ws://127.0.0.1:53761
+1668786304362	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilempUUtj/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:53761/devtools/browser/d81ec777-7c8e-4506-b4f4-3970fbb637a8
+JavaScript error: https://forms.ontraport.com/v2.4/include/minify/?g=genjs-v3, line 140: TypeError: $.widget is not a function
+JavaScript error: https://forms.ontraport.com/v2.4/include/minify/?g=genjs-v3, line 140: TypeError: $.widget is not a function
+JavaScript error: https://forms.ontraport.com/v2.4/include/minify/?g=genjs-v3, line 140: TypeError: $.widget is not a function
+JavaScript error: https://forms.ontraport.com/v2.4/include/formEditor/genjs-v3.php?uid=p2c215361f14&method=script&randClass=moon-ray-form-placeholder-92469, line 58: TypeError: jQuery(...).moonrayCaptcha is not a function
+JavaScript error: https://forms.ontraport.com/v2.4/include/formEditor/genjs-v3.php?uid=p2c215361f19&method=script&randClass=moon-ray-form-placeholder-45421, line 58: TypeError: jQuery(...).moonraySmartForm is not a function
+JavaScript error: https://forms.ontraport.com/v2.4/include/formEditor/genjs-v3.php?uid=p2c215361f16&method=script&randClass=moon-ray-form-placeholder-63174, line 58: TypeError: jQuery(...).moonrayCaptcha is not a function
+JavaScript error: https://forms.ontraport.com/v2.4/include/formEditor/genjs-v3.php?uid=p2c215361f18&method=script&randClass=moon-ray-form-placeholder-84406, line 58: TypeError: jQuery(...).moonrayCaptcha is not a function
+JavaScript error: https://forms.ontraport.com/v2.4/include/formEditor/genjs-v3.php?uid=p2c215361f30&method=script&randClass=moon-ray-form-placeholder-87430, line 58: TypeError: jQuery(...).moonrayCaptcha is not a function
+JavaScript error: https://forms.ontraport.com/v2.4/include/formEditor/genjs-v3.php?uid=p2c215361f27&method=script&randClass=moon-ray-form-placeholder-95867, line 58: TypeError: jQuery(...).moonrayCaptcha is not a function
+JavaScript error: https://forms.ontraport.com/v2.4/include/formEditor/genjs-v3.php?uid=p2c215361f15&method=script&randClass=moon-ray-form-placeholder-21559, line 58: TypeError: jQuery(...).moonrayCaptcha is not a function
+JavaScript error: https://forms.ontraport.com/v2.4/include/minify/?g=genjs-v3, line 140: TypeError: $.widget is not a function
+JavaScript error: https://forms.ontraport.com/v2.4/include/formEditor/genjs-v3.php?uid=p2c215361f28&method=script&randClass=moon-ray-form-placeholder-36342, line 58: TypeError: jQuery(...).moonrayCaptcha is not a function
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.hexacta.com."
+1668786314352	Marionette	INFO	Stopped listening on port 44053
+1668786448459	geckodriver	INFO	Listening on 127.0.0.1:46035
+1668786448463	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "53609" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilejkcGKb"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1668786448973	Marionette	INFO	Marionette enabled
+1668786448977	Marionette	INFO	Listening on port 36405
+Read port: 36405
+WebDriver BiDi listening on ws://127.0.0.1:53609
+1668786449127	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilejkcGKb/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:53609/devtools/browser/67524126-e9e0-4788-87d1-5e530b583ec1
+JavaScript error: https://v6i7z7i8.rocketcdn.me/wp-content/themes/forstron/assets/js/custom-js.js?ver=1.0.0, line 6: TypeError: jQuery(...).slick is not a function
+JavaScript error: https://forms.ontraport.com/v2.4/include/formEditor/genjs-v3.php?uid=p2c215361f19&method=script&randClass=moon-ray-form-placeholder-75476, line 58: TypeError: jQuery(...).moonraySmartForm is not a function
+JavaScript error: https://forms.ontraport.com/v2.4/include/formEditor/genjs-v3.php?uid=p2c215361f27&method=script&randClass=moon-ray-form-placeholder-54966, line 58: TypeError: jQuery(...).moonrayCaptcha is not a function
+JavaScript error: https://forms.ontraport.com/v2.4/include/formEditor/genjs-v3.php?uid=p2c215361f17&method=script&randClass=moon-ray-form-placeholder-58669, line 58: TypeError: jQuery(...).moonrayCaptcha is not a function
+JavaScript error: https://forms.ontraport.com/v2.4/include/formEditor/genjs-v3.php?uid=p2c215361f14&method=script&randClass=moon-ray-form-placeholder-78583, line 58: TypeError: jQuery(...).moonrayCaptcha is not a function
+JavaScript error: https://forms.ontraport.com/v2.4/include/formEditor/genjs-v3.php?uid=p2c215361f16&method=script&randClass=moon-ray-form-placeholder-51184, line 58: TypeError: jQuery(...).moonrayCaptcha is not a function
+JavaScript error: https://forms.ontraport.com/v2.4/include/formEditor/genjs-v3.php?uid=p2c215361f28&method=script&randClass=moon-ray-form-placeholder-14199, line 58: TypeError: jQuery(...).moonrayCaptcha is not a function
+JavaScript error: https://forms.ontraport.com/v2.4/include/formEditor/genjs-v3.php?uid=p2c215361f18&method=script&randClass=moon-ray-form-placeholder-93821, line 58: TypeError: jQuery(...).moonrayCaptcha is not a function
+JavaScript error: https://forms.ontraport.com/v2.4/include/formEditor/genjs-v3.php?uid=p2c215361f15&method=script&randClass=moon-ray-form-placeholder-76497, line 58: TypeError: jQuery(...).moonrayCaptcha is not a function
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.hexacta.com."
+1668786458084	Marionette	INFO	Stopped listening on port 36405
+1668786799242	geckodriver	INFO	Listening on 127.0.0.1:56575
+1668786799247	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "51325" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileZP6yA0"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1668786799690	Marionette	INFO	Marionette enabled
+1668786799693	Marionette	INFO	Listening on port 36291
+Read port: 36291
+WebDriver BiDi listening on ws://127.0.0.1:51325
+1668786799810	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileZP6yA0/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:51325/devtools/browser/02ea2974-8089-4c0a-b5a1-d38554c29cd8
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.hexacta.com."
+1668786810925	Marionette	INFO	Stopped listening on port 36291
+1668786920065	geckodriver	INFO	Listening on 127.0.0.1:55693
+1668786920069	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "48531" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileapHxSu"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1668786920519	Marionette	INFO	Marionette enabled
+1668786920522	Marionette	INFO	Listening on port 33387
+Read port: 33387
+WebDriver BiDi listening on ws://127.0.0.1:48531
+1668786920645	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileapHxSu/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:48531/devtools/browser/55057292-789a-4ca1-a340-5c7ee0286eb8
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.hexacta.com."
+1668786930461	Marionette	INFO	Stopped listening on port 33387
+Sandbox: Unexpected EOF, op 0 flags 00 path /proc/cpuinfo
+1668787195359	geckodriver	INFO	Listening on 127.0.0.1:38885
+1668787195363	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "46479" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilekcyeYi"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1668787195837	Marionette	INFO	Marionette enabled
+1668787195840	Marionette	INFO	Listening on port 33831
+Read port: 33831
+WebDriver BiDi listening on ws://127.0.0.1:46479
+1668787195943	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilekcyeYi/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:46479/devtools/browser/3657faf3-0bb4-48d1-a644-2284e5e9ac89
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.hexacta.com."
+1668787209455	Marionette	INFO	Stopped listening on port 33831
+1668787275775	geckodriver	INFO	Listening on 127.0.0.1:45349
+1668787275779	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "41999" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileKYRrJQ"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1668787276229	Marionette	INFO	Marionette enabled
+1668787276233	Marionette	INFO	Listening on port 34929
+Read port: 34929
+WebDriver BiDi listening on ws://127.0.0.1:41999
+1668787276358	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileKYRrJQ/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:41999/devtools/browser/889a14f5-089b-4538-b868-e18d63e12d1c
+JavaScript error: https://forms.ontraport.com/v2.4/include/minify/?g=genjs-v3, line 140: TypeError: $.widget is not a function
+JavaScript error: https://forms.ontraport.com/v2.4/include/minify/?g=genjs-v3, line 140: TypeError: $.widget is not a function
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.hexacta.com."
+1668787287190	Marionette	INFO	Stopped listening on port 34929
+Sandbox: Unexpected EOF, op 0 flags 00 path /proc/cpuinfo
+1668787491431	geckodriver	INFO	Listening on 127.0.0.1:52633
+1668787491434	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "35039" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileGaALfR"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1668787491934	Marionette	INFO	Marionette enabled
+1668787491938	Marionette	INFO	Listening on port 43667
+WebDriver BiDi listening on ws://127.0.0.1:35039
+Read port: 43667
+1668787492164	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileGaALfR/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:35039/devtools/browser/f4034d78-cd07-4e50-822e-a41b17f02d8a
+JavaScript error: https://forms.ontraport.com/v2.4/include/formEditor/genjs-v3.php?uid=p2c215361f16&method=script&randClass=moon-ray-form-placeholder-25633, line 58: TypeError: jQuery(...).moonrayCaptcha is not a function
+JavaScript error: https://forms.ontraport.com/v2.4/include/formEditor/genjs-v3.php?uid=p2c215361f19&method=script&randClass=moon-ray-form-placeholder-83426, line 58: TypeError: jQuery(...).moonraySmartForm is not a function
+JavaScript error: https://forms.ontraport.com/v2.4/include/formEditor/genjs-v3.php?uid=p2c215361f18&method=script&randClass=moon-ray-form-placeholder-27652, line 58: TypeError: jQuery(...).moonrayCaptcha is not a function
+JavaScript error: https://forms.ontraport.com/v2.4/include/formEditor/genjs-v3.php?uid=p2c215361f27&method=script&randClass=moon-ray-form-placeholder-6638, line 58: TypeError: jQuery(...).moonrayCaptcha is not a function
+JavaScript error: https://forms.ontraport.com/v2.4/include/formEditor/genjs-v3.php?uid=p2c215361f14&method=script&randClass=moon-ray-form-placeholder-38904, line 58: TypeError: jQuery(...).moonrayCaptcha is not a function
+JavaScript error: https://forms.ontraport.com/v2.4/include/formEditor/genjs-v3.php?uid=p2c215361f15&method=script&randClass=moon-ray-form-placeholder-6347, line 58: TypeError: jQuery(...).moonrayCaptcha is not a function
+JavaScript error: https://forms.ontraport.com/v2.4/include/minify/?g=genjs-v3, line 140: TypeError: $.widget is not a function
+JavaScript error: https://forms.ontraport.com/v2.4/include/formEditor/genjs-v3.php?uid=p2c215361f28&method=script&randClass=moon-ray-form-placeholder-40734, line 58: TypeError: jQuery(...).moonrayCaptcha is not a function
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.hexacta.com."
+1668787502366	Marionette	INFO	Stopped listening on port 43667
+Sandbox: Unexpected EOF, op 0 flags 00 path /proc/cpuinfo
+1668787584882	geckodriver	INFO	Listening on 127.0.0.1:42755
+1668787584886	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "56579" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileGYRSp2"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1668787585339	Marionette	INFO	Marionette enabled
+1668787585343	Marionette	INFO	Listening on port 40773
+Read port: 40773
+WebDriver BiDi listening on ws://127.0.0.1:56579
+1668787585458	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileGYRSp2/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:56579/devtools/browser/29b2dc97-5cd7-4285-8617-2d46e18b2e35
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.hexacta.com."
+1668787595002	Marionette	INFO	Stopped listening on port 40773
+Sandbox: Unexpected EOF, op 0 flags 00 path /proc/cpuinfo

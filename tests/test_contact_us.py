@@ -5,12 +5,11 @@ import pytest
 
 
 @pytest.mark.parametrize(
-    "email, message, order",
-    [("test@yopmail.com", "formal request", "ABC123"),
-     ("testability.com", "Formal Request", "123AVF"),
-     ("test@yopmail.com", "", "Order 1")]
+    "search, assertion",
+    [("Outsource", "What not to do when working with an outsourced software team")]
 )
-def test_form_contact_us(browser, email, message, order):
+def test_form_contact_us(browser, search, assertion):
     contact = ContactUsPage(browser)
-    contact.send_form(email, message, order)
-    assert_form_contact_us(contact.get_text_result_send_form())
+    contact.send_search_and_validate(search)
+    print(contact.validate_result())
+    assert_list_result(contact.validate_result(), assertion)
