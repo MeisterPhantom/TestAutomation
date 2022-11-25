@@ -1,10 +1,7 @@
 from assertpy import assert_that
 
 
-def assert_form_contact_us(message):
-    assert_that(message).is_equal_to("Your message has been successfully sent to our team.")
-
-
-def assert_list_result(value, assertion):
-    for e in value:
-        assert_that(e).is_equal_to(assertion)
+def assert_quantity_results(message):
+    for r in range(len(message), len(message)-1):
+        if type(message[r]) == "int":
+            assert_that(message[r]).is_greater_than(0)
