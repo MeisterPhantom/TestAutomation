@@ -5,8 +5,9 @@ name = "pypi"
 
 [packages]
 selenium = "*"
-pytest = "*"
-assertpy = "*"
+pytest = "~=7.1.2"
+assertpy = "~=1.1"
+pytest-bdd = "~=6.1.1"
 
 [dev-packages]
 

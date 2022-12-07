@@ -1,5 +1,5 @@
 from selenium import webdriver
-from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.firefox.options import Options
 import pytest
 
 
@@ -7,7 +7,7 @@ import pytest
 def browser():
     driver_options = Options()
     driver_options.add_argument("--headless")
-    driver = webdriver.Chrome(options=driver_options)
+    driver = webdriver.Firefox(options=driver_options)
     driver.get("https://www.google.com/")
     driver.maximize_window()
     driver.implicitly_wait(3)
