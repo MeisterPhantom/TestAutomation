@@ -14,7 +14,6 @@ scenarios('../features/demoga.feature')
 @given("the demoga page is displayed")
 def home_demoga():
     HomeDemogaPage(browser)
-    pass
 
 
 @when(parsers.parse('I select the section "{section}"'))
@@ -22,7 +21,7 @@ def select_section(browser, section):
     HomeDemogaPage(browser).select_section_option(section)
 
 
-@given(parsers.parse('I select the option "{option}"'))
+@given('I select the option "<option>"')
 def select_option(browser, option):
     ModulesDemogaPage(browser).select_list_option(option)
 
