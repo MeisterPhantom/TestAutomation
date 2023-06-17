@@ -1,5 +1,6 @@
 from pytest_bdd import scenarios, given, when, then, parsers
-from configurations.conftest import *
+# from configurations.conftest import *
+from tests.step_defs.conftest import *
 from src.pages.Login.login_demoga_page import LoginDemogaPage
 from src.pages.home.home_demoga_page import HomeDemogaPage
 from src.pages.modals.modals_demoga_page import ModalsDemogaPage
@@ -21,13 +22,16 @@ def select_section(browser, section):
     HomeDemogaPage(browser).select_section_option(section)
 
 
-@given('I select the option "<option>"')
+@when(parsers.parse('I select the option "{option}"'))
+@when('I select the option "<option>"')
 def select_option(browser, option):
+    browser.implicitly_wait(5)
     ModulesDemogaPage(browser).select_list_option(option)
 
 
-@then('I fill the form with "<full_name>", "<email>", "<current_address>" and "<permanent_address>"')
+@then(parsers.parse('I fill the form with "{full_name}", "{email}", "{current_address}", and "{permanent_address}"'))
 def fill_textbox_form(browser, full_name, email, current_address, permanent_address):
+    browser.implicitly_wait(10)
     TextBoxPage(browser).fill_form(full_name, email, current_address, permanent_address)
 
 
@@ -66,26 +70,27 @@ def step_impl():
     raise NotImplementedError(u'STEP: And save the data')
 
 
-@given("I create a new tab")
+@when("I create a new tab")
 def new_tab_click(browser):
     WindowsDemogaPage(browser).select_new_tab()
 
 
-@then(parsers.parse('The system show the new tab with the message "{message}"'))
+@then(parsers.parse('the system shows the new tab with the message "{message}"'))
 def validate_new_tab(browser, message):
+    browser.implicitly_wait(10)
     WindowsDemogaPage(browser).new_tab_validation(message)
 
 
-@then(parsers.parse('The system show the new dialog with the message "{message}"'))
+@then(parsers.parse('The system shows the new dialog with the message "{message}"'))
 def validate_small_modal(browser, message):
     ModalsDemogaPage(browser).show_small_modal_and_validate(message)
 
 
-@given('I fill the form with "<username>" , "<password>"')
+@given('I fill the form with "<username>", "<password>"')
 def login(browser, username, password):
     LoginDemogaPage(browser).send_login_information(username, password)
 
 
-@then(parsers.parse('The system show a error message "{message}"'))
+@then(parsers.parse('The system shows an error message "{message}"'))
 def validate_error_login(browser, message):
     LoginDemogaPage(browser).invalidate_login(message)

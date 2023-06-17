@@ -12,7 +12,7 @@ class WindowsDemogaPage:
     def new_tab_validation(self, message):
         for window_handle in self.browser.window_handles:
             if window_handle != 0:
-                self.browser.switch_to.window(window_handle)
+                self.browser.switch_to.window(window_handle[1])
                 break
         text = self.browser.find_element(*WindowsResources.NEW_TAB_TEXT_LABEL).text
         assert text == message

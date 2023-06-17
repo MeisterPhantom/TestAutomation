@@ -9,4 +9,3 @@ class HomeDemogaPage:
 
     def select_section_option(self, option):
         HelperMethods(self.browser).get_element(HomeLocators.SECTIONS_BTNS, option)
-
