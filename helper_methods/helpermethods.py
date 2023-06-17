@@ -7,10 +7,10 @@ class HelperMethods:
     def __init__(self, browser):
         self.browser = browser
 
-    def get_element(self, webElement, text):
+    def get_element(self, webElement, texto):
         elements = self.browser.find_elements(By.XPATH, webElement)
         for e in elements:
-            if e.text == text:
+            if e.text == texto:
                 e.click()
                 break
 

@@ -8,5 +8,4 @@ class ModulesDemogaPage:
         self.browser = browser
 
     def select_list_option(self, option):
-        print(option)
         HelperMethods(self.browser).get_element(ModulesLocators.OPTIONS_BTNS, option)

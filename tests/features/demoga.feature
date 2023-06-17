@@ -9,7 +9,7 @@ Feature: Demoga portal
 
   Scenario Outline: Validate and interact with the Elements section.
     When I select the section "Elements"
-    And I select the option "TextBox"
+    And I select the option "Text Box"
     Then I fill the form with "<full_name>", "<email>", "<current_address>", and "<permanent_address>"
     And send the information
 
@@ -25,16 +25,14 @@ Feature: Demoga portal
   Scenario Outline: Validate and interact with the Forms section.
     When I select the section "Forms"
     And I select the option "Practice Form"
-    Then I fill the form with "<first_name>", "<last_name>", "<email>", "<mobile>", "<date_of_birth>", "<subjects>", "<current_address>", "<state>", and "<city>"
+    Then I fill the form with "<first_name>", "<last_name>", "<email>", "<mobile>", "<date_of_birth>", "<subjects>", and "<current_address>"
     And I select the option gender "<gender>"
     And I select the option hobbies "<hobbies>"
-    And I select the state and city "<state>", "<city>"
-    And upload the photo
     And save the data
 
     Examples:
-    | first_name  | last_name  | email                     | gender | mobile       | date_of_birth | subjects             | current_address | state | city   |
-    | Pedro       | Pascal     | Pascal.fake@email.com     | Male   | 3009990000   | 01/05/1990    | Aplicando a Pragma   | current_address | NCR   | Delhi  |
+    | first_name  | last_name  | email                     | gender | mobile       | date_of_birth | subjects             | current_address | hobbies |
+    | Pedro       | Pascal     | Pascal.fake@email.com     | Male   | 3009990000   | 01/05/1990    | Aplicando a Pragma   | current_address | Sports  |
 
   Scenario: Validate the new tab in the Alerts, Frame & Windows section
     When I select the section "Alerts, Frame & Windows"

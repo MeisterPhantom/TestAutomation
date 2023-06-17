@@ -8,6 +8,7 @@ from src.pages.modules.modules_demoga_page import ModulesDemogaPage
 from src.pages.textbox.textbox_demoga_page import TextBoxPage
 from src.pages.updownload.updownload_demoga_page import UpDownLoadPage
 from src.pages.windows.windows_demoga_page import WindowsDemogaPage
+from src.pages.form.form_demoqa_page import FormDemogaPage
 
 scenarios('../features/demoga.feature')
 
@@ -19,6 +20,8 @@ def home_demoga():
 
 @when(parsers.parse('I select the section "{section}"'))
 def select_section(browser, section):
+    browser.implicitly_wait(5)
+    browser.execute_script("window.scrollTo(0, document.body.scrollHeight);")
     HomeDemogaPage(browser).select_section_option(section)
 
 
@@ -35,7 +38,7 @@ def fill_textbox_form(browser, full_name, email, current_address, permanent_addr
     TextBoxPage(browser).fill_form(full_name, email, current_address, permanent_address)
 
 
-@given("send the information")
+@then("send the information")
 def send_textbox_form_information(browser):
     TextBoxPage(browser).send_information_form()
 
@@ -45,29 +48,25 @@ def download_action(browser):
     UpDownLoadPage(browser).click_download()
 
 
-@given('I select the option gender "<gender>"')
-def step_impl():
-    raise NotImplementedError(u'STEP: And I select the option gender "<gender>"')
+@then(parsers.parse('I fill the form with "{first_name}", "{last_name}", "{email}", "{mobile}", "{date_of_birth}", '
+                    '"{subjects}", and "{current_address}"'))
+def fill_form(browser, first_name, last_name, email, mobile, date_of_birth, subjects, current_address):
+    FormDemogaPage(browser).send_field_information(first_name, last_name, mobile, date_of_birth, subjects, current_address)
 
 
-@given('I select the option hobbies "<hobbies>"')
-def step_impl():
-    raise NotImplementedError(u'STEP: And I select the option hobbies "<hobbies>"')
+@then(parsers.parse('I select the option gender "{gender}"'))
+def select_gender(browser, gender):
+    FormDemogaPage(browser).select_gender(gender)
 
 
-@given('I select the state and city "<state>", "<city>"')
-def step_impl():
-    raise NotImplementedError(u'STEP: And I select the state and city "<state>", "<city>"')
+@then(parsers.parse('I select the option hobbies "{hobbies}"'))
+def select_hobbies(browser, hobbies):
+    FormDemogaPage(browser).select_hobbie(hobbies)
 
 
-@given("upload the photo")
-def step_impl():
-    raise NotImplementedError(u'STEP: And upload the photo')
-
-
-@given("save the data")
-def step_impl():
-    raise NotImplementedError(u'STEP: And save the data')
+@then("save the data")
+def send_data(browser):
+    FormDemogaPage(browser).send_data_form()
 
 
 @when("I create a new tab")
@@ -86,7 +85,7 @@ def validate_small_modal(browser, message):
     ModalsDemogaPage(browser).show_small_modal_and_validate(message)
 
 
-@given('I fill the form with "<username>", "<password>"')
+@when(parsers.parse('I fill the form with "{username}", "{password}"'))
 def login(browser, username, password):
     LoginDemogaPage(browser).send_login_information(username, password)
 
