@@ -1,6 +1,6 @@
 from pytest_bdd import scenarios, given, when, then, parsers
-# from configurations.conftest import *
-from tests.step_defs.conftest import *
+from configurations.conftest import *
+# from tests.step_defs.conftest import *
 from src.pages.Login.login_demoga_page import LoginDemogaPage
 from src.pages.home.home_demoga_page import HomeDemogaPage
 from src.pages.modals.modals_demoga_page import ModalsDemogaPage
