@@ -486,6 +486,181 @@ DevTools listening on ws://127.0.0.1:56579/devtools/browser/29b2dc97-5cd7-4285-8
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.hexacta.com."
 1668787595002	Marionette	INFO	Stopped listening on port 40773
 Sandbox: Unexpected EOF, op 0 flags 00 path /proc/cpuinfo
+<<<<<<< HEAD
+1686172355924	geckodriver	INFO	Listening on 127.0.0.1:59435
+1686172356432	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--remote-debugging-port" "44819" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileOxQX1A"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1686172356860	Marionette	INFO	Marionette enabled
+1686172356863	Marionette	INFO	Listening on port 43351
+Read port: 43351
+WebDriver BiDi listening on ws://127.0.0.1:44819
+1686172356998	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:44819/devtools/browser/4082088b-f553-47e7-935b-a50f1906a456
+console.error: Region.sys.mjs: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 762))
+console.error: Region.sys.mjs: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 414))
+1686172377434	Marionette	INFO	Stopped listening on port 43351
+1686172462398	geckodriver	INFO	Listening on 127.0.0.1:53479
+1686172462409	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--remote-debugging-port" "50719" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileOlQoGC"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1686172462761	Marionette	INFO	Marionette enabled
+1686172462765	Marionette	INFO	Listening on port 36647
+Read port: 36647
+WebDriver BiDi listening on ws://127.0.0.1:50719
+1686172462875	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:50719/devtools/browser/ecd13be1-387f-4f80-8f80-1aadacb2a301
+console.error: Region.sys.mjs: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 762))
+console.error: Region.sys.mjs: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 414))
+console.error: "update.locale" " file doesn't exist in either the application or GRE directories"
+1686172492991	Marionette	INFO	Stopped listening on port 36647
+1686172493413	addons.xpi	ERROR	System addon update list error Error: Failed downloading XML, status: 0, channelStatus: 2147500036, errorCode: 2, reason: error
+console.error: Region.sys.mjs: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.sys.mjs: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.sys.mjs", 414))
+console.error: (new Error("Polling for changes failed: NetworkError: Network request failed.", "resource://services-settings/remote-settings.sys.mjs", 324))
+Sandbox: Unexpected EOF, op 0 flags 00 path /proc/cpuinfo
+1686175307238	geckodriver	INFO	Listening on 127.0.0.1:38167
+1686175307243	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--remote-debugging-port" "47559" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilelOHeIK"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1686175307560	Marionette	INFO	Marionette enabled
+1686175307563	Marionette	INFO	Listening on port 45567
+WebDriver BiDi listening on ws://127.0.0.1:47559
+Read port: 45567
+1686175307822	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:47559/devtools/browser/9059056c-5356-407b-b2cb-6cec2c9cfebd
+console.error: "update.locale" " file doesn't exist in either the application or GRE directories"
+1686175355763	Marionette	INFO	Stopped listening on port 45567
+1686175356226	addons.xpi	ERROR	System addon update list error Error: Failed downloading XML, status: 0, channelStatus: 2147500036, errorCode: 2, reason: error
+console.error: (new Error("Polling for changes failed: NetworkError: Network request failed.", "resource://services-settings/remote-settings.sys.mjs", 324))
+Sandbox: Unexpected EOF, op 0 flags 00 path /proc/cpuinfo
+1686175998939	geckodriver	INFO	Listening on 127.0.0.1:46881
+1686175998944	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--remote-debugging-port" "37715" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileOUSDkt"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1686175999264	Marionette	INFO	Marionette enabled
+1686175999267	Marionette	INFO	Listening on port 41199
+Read port: 41199
+WebDriver BiDi listening on ws://127.0.0.1:37715
+1686175999443	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:37715/devtools/browser/ffd1261b-9c4f-4550-8b53-48494e6744ce
+1686176001877	Marionette	INFO	Stopped listening on port 41199
+1686178108875	geckodriver	INFO	Listening on 127.0.0.1:56101
+1686178108880	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--remote-debugging-port" "38365" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofiler3wKzn"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1686178109178	Marionette	INFO	Marionette enabled
+1686178109181	Marionette	INFO	Listening on port 36719
+WebDriver BiDi listening on ws://127.0.0.1:38365
+Read port: 36719
+1686178109448	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:38365/devtools/browser/726fb0c8-1003-4343-bece-0c4f9b5f25c5
+1686178111675	Marionette	INFO	Stopped listening on port 36719
+1686178170158	geckodriver	INFO	Listening on 127.0.0.1:33757
+1686178170163	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--remote-debugging-port" "59983" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileJTz2Di"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1686178170448	Marionette	INFO	Marionette enabled
+1686178170452	Marionette	INFO	Listening on port 44999
+Read port: 44999
+WebDriver BiDi listening on ws://127.0.0.1:59983
+1686178170547	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:59983/devtools/browser/913753ba-9480-4b93-9fcf-bd63afc2a7b2
+1686178173172	Marionette	INFO	Stopped listening on port 44999
+1686178187696	geckodriver	INFO	Listening on 127.0.0.1:39661
+1686178187700	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--remote-debugging-port" "35853" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileYM1lk4"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1686178187986	Marionette	INFO	Marionette enabled
+1686178187990	Marionette	INFO	Listening on port 46093
+Read port: 46093
+WebDriver BiDi listening on ws://127.0.0.1:35853
+1686178188081	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:35853/devtools/browser/f81231ae-5e7e-4eca-bf9d-e45954c7678b
+1686178190400	Marionette	INFO	Stopped listening on port 46093
+1686178209936	geckodriver	INFO	Listening on 127.0.0.1:33001
+1686178209941	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--remote-debugging-port" "32853" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile17uVAC"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1686178210225	Marionette	INFO	Marionette enabled
+1686178210229	Marionette	INFO	Listening on port 45991
+Read port: 45991
+WebDriver BiDi listening on ws://127.0.0.1:32853
+1686178210332	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:32853/devtools/browser/c064ac14-f974-463e-8077-88017ede025f
+1686178212581	Marionette	INFO	Stopped listening on port 45991
+1686178447107	geckodriver	INFO	Listening on 127.0.0.1:54887
+1686178447111	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--remote-debugging-port" "44539" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofiley2K7c8"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1686178447398	Marionette	INFO	Marionette enabled
+1686178447402	Marionette	INFO	Listening on port 46151
+Read port: 46151
+WebDriver BiDi listening on ws://127.0.0.1:44539
+1686178447497	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:44539/devtools/browser/0851cda0-1211-4bac-b3c1-0a2be4a3d525
+1686178450144	Marionette	INFO	Stopped listening on port 46151
+Sandbox: Unexpected EOF, op 0 flags 00 path /proc/cpuinfo
+1686178488819	geckodriver	INFO	Listening on 127.0.0.1:42857
+1686178488825	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--remote-debugging-port" "60109" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilecyFkBC"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1686178489111	Marionette	INFO	Marionette enabled
+1686178489115	Marionette	INFO	Listening on port 45807
+Read port: 45807
+WebDriver BiDi listening on ws://127.0.0.1:60109
+1686178489206	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:60109/devtools/browser/21bc5fc8-538f-4714-abf8-ccdf888a82a3
+1686178491480	Marionette	INFO	Stopped listening on port 45807
+Sandbox: Unexpected EOF, op 0 flags 00 path /proc/cpuinfo
+1686178576864	geckodriver	INFO	Listening on 127.0.0.1:57291
+1686178576870	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--remote-debugging-port" "58219" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile4WuQ3L"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1686178577151	Marionette	INFO	Marionette enabled
+1686178577154	Marionette	INFO	Listening on port 39271
+Read port: 39271
+WebDriver BiDi listening on ws://127.0.0.1:58219
+1686178577248	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:58219/devtools/browser/039180a2-2ac2-44ee-abfc-73e8491c3da6
+1686178579522	Marionette	INFO	Stopped listening on port 39271
+Sandbox: Unexpected EOF, op 0 flags 00 path /proc/cpuinfo
+1686178647437	geckodriver	INFO	Listening on 127.0.0.1:51327
+1686178647441	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "54273" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileHmAnwE"
+=======
 1669345551213	geckodriver	INFO	Listening on 127.0.0.1:46391
 1669345551722	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "59207" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileU55yxw"
 ATTENTION: default value of option mesa_glthread overridden by environment.
@@ -1379,11 +1554,22 @@ JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Pha
 Sandbox: Unexpected EOF, op 0 flags 00 path /proc/cpuinfo
 1677210535633	geckodriver	INFO	Listening on 127.0.0.1:34307
 1677210536117	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "40385" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofiledta0g0"
+>>>>>>> main
 console.warn: services.settings: Ignoring preference override of remote settings server
 console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
 ATTENTION: default value of option mesa_glthread overridden by environment.
 ATTENTION: default value of option mesa_glthread overridden by environment.
 ATTENTION: default value of option mesa_glthread overridden by environment.
+<<<<<<< HEAD
+1686178648038	Marionette	INFO	Marionette enabled
+1686178648042	Marionette	INFO	Listening on port 34111
+Read port: 34111
+WebDriver BiDi listening on ws://127.0.0.1:54273
+1686178648184	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+DevTools listening on ws://127.0.0.1:54273/devtools/browser/fe4e69f0-9d4e-40cb-b1d1-0b344b2422b6
+1686178651018	Marionette	INFO	Stopped listening on port 34111
+=======
 ATTENTION: default value of option mesa_glthread overridden by environment.
 1677210536601	Marionette	INFO	Marionette enabled
 1677210536604	Marionette	INFO	Listening on port 37387
@@ -1484,3 +1670,4 @@ JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error:
 JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
 JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
 JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+>>>>>>> main
