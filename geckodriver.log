@@ -1671,3 +1671,134 @@ JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error:
 JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
 JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
 >>>>>>> main
+1687443461700	geckodriver	INFO	Listening on 127.0.0.1:35603
+1687443462208	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "59495" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilePeoTSM"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1687443462942	Marionette	INFO	Marionette enabled
+1687443462945	Marionette	INFO	Listening on port 40567
+Read port: 40567
+WebDriver BiDi listening on ws://127.0.0.1:59495
+1687443463150	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+DevTools listening on ws://127.0.0.1:59495/devtools/browser/1528f70d-3acd-4ff1-a6bd-361d07064615
+1687443468035	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://rock.defybrick.com/placement_invocation?id=65349&idx=0, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/fAtTGskzFlJa5Ldh3SiPbiLEXcXjYWf8ZG_gkYEl2B0.js line 2 > eval line 1254 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://rock.defybrick.com/placement_invocation?id=65349&idx=0, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1687443470619	Marionette	INFO	Stopped listening on port 40567
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1687443473323	geckodriver	INFO	Listening on 127.0.0.1:54257
+1687443473325	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "52053" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileYpHqeF"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1687443473827	Marionette	INFO	Marionette enabled
+1687443473830	Marionette	INFO	Listening on port 40645
+Read port: 40645
+WebDriver BiDi listening on ws://127.0.0.1:52053
+1687443473980	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+DevTools listening on ws://127.0.0.1:52053/devtools/browser/6d5064b7-089b-4e55-9a53-3455f57fdeef
+1687443478726	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://rock.defybrick.com/placement_invocation?id=65349&idx=0, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/fAtTGskzFlJa5Ldh3SiPbiLEXcXjYWf8ZG_gkYEl2B0.js line 2 > eval line 133 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://rock.defybrick.com/placement_invocation?id=65349&idx=0, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1687443480177	Marionette	INFO	Stopped listening on port 40645
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1687443482935	geckodriver	INFO	Listening on 127.0.0.1:36757
+1687443482938	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "48507" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileYZjZAe"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1687443483431	Marionette	INFO	Marionette enabled
+1687443483434	Marionette	INFO	Listening on port 38889
+Read port: 38889
+WebDriver BiDi listening on ws://127.0.0.1:48507
+1687443483560	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+DevTools listening on ws://127.0.0.1:48507/devtools/browser/c17e114e-a16d-458b-a51e-d931a40d479a
+1687443488408	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://rock.defybrick.com/placement_invocation?id=65349&idx=0, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/fAtTGskzFlJa5Ldh3SiPbiLEXcXjYWf8ZG_gkYEl2B0.js line 2 > eval line 7459 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://rock.defybrick.com/placement_invocation?id=65349&idx=0, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://cdn.ad.plus/player/adplus.js, line 402: TypeError: g(...).setup is not a function
+1687443499398	Marionette	INFO	Stopped listening on port 38889
+1687443501977	geckodriver	INFO	Listening on 127.0.0.1:42811
+1687443501980	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "47791" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile7UNlHd"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1687443502563	Marionette	INFO	Marionette enabled
+1687443502568	Marionette	INFO	Listening on port 44347
+Read port: 44347
+WebDriver BiDi listening on ws://127.0.0.1:47791
+1687443502708	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+DevTools listening on ws://127.0.0.1:47791/devtools/browser/2ef42e2c-3506-47f1-8d43-e537fc72d83b
+1687443507354	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://rock.defybrick.com/placement_invocation?id=65349&idx=0, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/fAtTGskzFlJa5Ldh3SiPbiLEXcXjYWf8ZG_gkYEl2B0.js line 2 > eval line 7059 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://rock.defybrick.com/placement_invocation?id=65349&idx=0, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1687443509840	Marionette	INFO	Stopped listening on port 44347
+console.error: ({})
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1687443512548	geckodriver	INFO	Listening on 127.0.0.1:36491
+1687443512551	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "58721" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileFDJXwq"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1687443513042	Marionette	INFO	Marionette enabled
+1687443513045	Marionette	INFO	Listening on port 36763
+Read port: 36763
+WebDriver BiDi listening on ws://127.0.0.1:58721
+1687443513198	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+DevTools listening on ws://127.0.0.1:58721/devtools/browser/b6c8f821-6846-4955-bc2c-a78497d039fd
+1687443517742	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://rock.defybrick.com/placement_invocation?id=65349&idx=0, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/fAtTGskzFlJa5Ldh3SiPbiLEXcXjYWf8ZG_gkYEl2B0.js line 2 > eval line 1698 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://rock.defybrick.com/placement_invocation?id=65349&idx=0, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1687443519797	Marionette	INFO	Stopped listening on port 36763
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1687443522534	geckodriver	INFO	Listening on 127.0.0.1:51085
+1687443522539	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "55087" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile2YKQF3"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1687443523032	Marionette	INFO	Marionette enabled
+1687443523035	Marionette	INFO	Listening on port 36441
+Read port: 36441
+WebDriver BiDi listening on ws://127.0.0.1:55087
+1687443523168	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+DevTools listening on ws://127.0.0.1:55087/devtools/browser/5d99ed77-3037-4905-bbe4-3e4c3fac5b17
+1687443529950	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://rock.defybrick.com/placement_invocation?id=65349&idx=0, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/fAtTGskzFlJa5Ldh3SiPbiLEXcXjYWf8ZG_gkYEl2B0.js line 2 > eval line 3095 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://rock.defybrick.com/placement_invocation?id=65349&idx=0, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1687443534961	Marionette	INFO	Stopped listening on port 36441
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
