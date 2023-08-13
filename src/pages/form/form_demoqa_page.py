@@ -7,7 +7,8 @@ class FormDemogaPage:
     def __init__(self, browser):
         self.browser = browser
 
-    def send_field_information(self, first_name, last_name, email, movil_number, date_of_birth, subjects, current_address):
+    def send_field_information(self, first_name, last_name, email, movil_number, date_of_birth, subjects,
+                               current_address):
         self.browser.find_element(*FormResources.FIRSTNAME_FIELD).send_keys(first_name)
         self.browser.find_element(*FormResources.LASTNAME_FIELD).send_keys(last_name)
         self.browser.find_element(*FormResources.EMAIL_FIELD).send_keys(email)

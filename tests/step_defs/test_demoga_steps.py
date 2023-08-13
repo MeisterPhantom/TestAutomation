@@ -10,7 +10,7 @@ from src.pages.updownload.updownload_demoga_page import UpDownLoadPage
 from src.pages.windows.windows_demoga_page import WindowsDemogaPage
 from src.pages.form.form_demoqa_page import FormDemogaPage
 
-scenarios('../features/demoga.feature')
+scenarios('../features/test_demoga.feature')
 
 
 @given("the demoga page is displayed")
@@ -48,10 +48,10 @@ def download_action(browser):
     UpDownLoadPage(browser).click_download()
 
 
-@then(parsers.parse('I fill the form with "{first_name}", "{last_name}", "{email}", "{mobile}", "{date_of_birth}", '
-                    '"{subjects}", and "{current_address}"'))
+@then(parsers.parse('I fill the form with "{first_name}", "{last_name}", "{email}", "{mobile}", "{date_of_birth}", "{subjects}", and "{current_address}"'))
 def fill_form(browser, first_name, last_name, email, mobile, date_of_birth, subjects, current_address):
-    FormDemogaPage(browser).send_field_information(first_name, last_name, mobile, date_of_birth, subjects, current_address)
+    FormDemogaPage(browser).send_field_information(first_name, last_name, mobile, date_of_birth, subjects,
+                                                   current_address)
 
 
 @then(parsers.parse('I select the option gender "{gender}"'))

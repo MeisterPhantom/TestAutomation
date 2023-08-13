@@ -43,7 +43,6 @@ def browser(config):
         # opts.add_argument('--no-sandbox')
         # opts.add_argument('--headless')
         # opts.add_argument('--disable-gpu')
-
     driver.get("https://demoqa.com/")
     driver.maximize_window()
     driver.implicitly_wait(config['implicit_wait'])
