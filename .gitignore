@@ -128,4 +128,10 @@ Desktop.ini
 # Thumbnails
 ._*
 Thumbs.db
+
+# geckodriver
 geckodriver.log
+
+# pytest report
+report.html
+/assets

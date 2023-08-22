@@ -33,3 +33,7 @@ source ./path/virtual/environment/bin/activate
 ```
 python -m pytest ./tests
 ```
+### 2.2 - Generate test report with pytest
+```
+python -m pytest --html=report.html ./tests
+```

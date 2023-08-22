@@ -9,6 +9,7 @@ pytest = "~=7.1.2"
 assertpy = "~=1.1"
 pytest-bdd = "~=6.1.1"
 webdriver-manager = "~=3.8.6"
+pytest-html = "*"
 
 [dev-packages]
 
