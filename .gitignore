@@ -128,3 +128,4 @@ Desktop.ini
 # Thumbnails
 ._*
 Thumbs.db
+geckodriver.log
