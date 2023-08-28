@@ -2,7 +2,7 @@ from src.resources.form.form_resources_demoqa import *
 from helper_methods.helpermethods import *
 
 
-class FormDemogaPage:
+class FormDemoqaPage:
 
     def __init__(self, browser):
         self.browser = browser

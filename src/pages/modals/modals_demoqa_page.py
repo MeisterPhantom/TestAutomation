@@ -1,7 +1,7 @@
-from src.resources.modals.modals_demoga_resources import *
+from src.resources.modals.modals_demoqa_resources import *
 
 
-class ModalsDemogaPage:
+class ModalsDemoqaPage:
 
     def __init__(self, browser):
         self.browser = browser

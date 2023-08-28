@@ -1,11 +1,11 @@
 # Created by ivan at 15/6/23
-Feature: Demoga portal
+Feature: demoqa portal
 
-  As a user of the demoga portal
+  As a user of the demoqa portal
   I want to review all sections and validate their correct operation
 
   Background:
-    Given the demoga page is displayed
+    Given the demoqa page is displayed
 
   Scenario Outline: Validate and interact with the Elements section.
     When I select the section "Elements"

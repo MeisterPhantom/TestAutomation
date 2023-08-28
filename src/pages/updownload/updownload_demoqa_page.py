@@ -1,4 +1,4 @@
-from src.resources.updownload.updownload_demoga_resources import *
+from src.resources.updownload.updownload_demoqa_resources import *
 
 
 class UpDownLoadPage:
