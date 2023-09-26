@@ -1,8 +1,8 @@
-from src.resources.home.home_demoga_resources import *
+from src.resources.home.home_demoqa_resources import *
 from helper_methods.helpermethods import *
 
 
-class HomeDemogaPage:
+class HomeDemoqaPage:
 
     def __init__(self, browser):
         self.browser = browser

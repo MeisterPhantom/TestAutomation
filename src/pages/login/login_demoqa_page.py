@@ -1,7 +1,7 @@
-from src.resources.login.login_demoga_resources import *
+from src.resources.login.login_demoqa_resources import *
 
 
-class LoginDemogaPage:
+class LoginDemoqaPage:
 
     def __init__(self, browser):
         self.browser = browser

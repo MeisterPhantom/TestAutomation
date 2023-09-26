@@ -1,7 +1,7 @@
 from src.resources.windows.windows_resources import *
 
 
-class WindowsDemogaPage:
+class WindowsDemoqaPage:
 
     def __init__(self, browser):
         self.browser = browser

@@ -1,4 +1,4 @@
-from src.resources.textbox.textbox_demoga_resources import *
+from src.resources.textbox.textbox_demoqa_resources import *
 from helper_methods.helpermethods import *
 
 
