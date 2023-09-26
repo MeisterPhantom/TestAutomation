@@ -21,7 +21,7 @@ Feature: Demoqa Books Functionality
 
   Scenario: Add a book to the list
     # When I select the section "Book Store Application"
-    When I select the option "Book Store"
+    When I select the option "Profile"
     And I select the book "You Dont Know JS"
     Then I show the information of the book
     And Add to the collection
