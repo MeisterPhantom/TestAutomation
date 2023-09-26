@@ -1,28 +1,27 @@
 # Created by meisterphantom at 28/8/23
-Feature: Demoqa books functionality
+Feature: Demoqa Books Functionality
 
   As a user of the demoqa portal
-  I search for a book on the demoqa/books page, validate that it is the book
+  I search for a book on the demoqa books page,
+  validate that it is the book
   I am looking for and add it to my collection.
 
   Background:
     Given the demoqa page is displayed
     When I select the section "Book Store Application"
     And I select the option "Login"
-    And I fill the form with "ivanocampo", "Ivanocampo1!"
-
+    And I fill the login form with "ivanocampo", "Ivanocampo1!"
 
   Scenario Outline: Validate the nickname of user, after login
     Then I show the profile of user, with the "<username>"
     And logout account
-
     Examples:
       | username   |
       | ivanocampo |
 
   Scenario: Add a book to the list
-    When I select the section "Book Store Application"
-    And I select the option "Book Store"
+    # When I select the section "Book Store Application"
+    When I select the option "Book Store"
     And I select the book "You Dont Know JS"
     Then I show the information of the book
     And Add to the collection

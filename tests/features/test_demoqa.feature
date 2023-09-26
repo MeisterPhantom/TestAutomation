@@ -1,5 +1,5 @@
 # Created by ivan at 15/6/23
-Feature: demoqa portal
+Feature: Demoqa portal
 
   As a user of the demoqa portal
   I want to review all sections and validate their correct operation
@@ -14,8 +14,8 @@ Feature: demoqa portal
     And send the information
 
     Examples:
-    | full_name        | email                        | current_address           | permanent_address         |
-    | Pedrito Oscarin  | p.oscarin@fakemail.io        | calle soledad # 10 - 0    | calle soledad # 10 - 0    |
+      | full_name        | email                        | current_address           | permanent_address         |
+      | Pedrito Oscarin  | p.oscarin@fakemail.io        | calle soledad # 10 - 0    | calle soledad # 10 - 0    |
 
   Scenario: Validate the download file in the Elements section.
     When I select the section "Elements"
@@ -25,14 +25,14 @@ Feature: demoqa portal
   Scenario Outline: Validate and interact with the Forms section.
     When I select the section "Forms"
     And I select the option "Practice Form"
-    Then I fill the form with "<first_name>", "<last_name>", "<email>", "<mobile>", "<date_of_birth>", "<subjects>", and "<current_address>"
+    Then I fill the form section with "<first_name>", "<last_name>", "<email>", "<mobile>", "<date_of_birth>", "<subjects>", and "<current_address>"
     And I select the option gender "<gender>"
     And I select the option hobbies "<hobbies>"
     And save the data
 
     Examples:
-    | first_name  | last_name  | email                     | gender | mobile       | date_of_birth | subjects             | current_address | hobbies |
-    | Pedro       | Pascal     | Pascal.fake@email.com     | Male   | 3009990000   | 01/05/1990    | Aplicando a Pragma   | current_address | Sports  |
+      | first_name  | last_name  | email                     | gender | mobile       | date_of_birth | subjects             | current_address | hobbies |
+      | Pedro       | Pascal     | Pascal.fake@email.com     | Male   | 3009990000   | 01/05/1990    | Aplicando a Pragma   | current_address | Music  |
 
   Scenario: Validate the new tab in the Alerts, Frame & Windows section
     When I select the section "Alerts, Frame & Windows"

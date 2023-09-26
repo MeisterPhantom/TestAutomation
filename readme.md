@@ -31,9 +31,9 @@ source ./path/virtual/environment/bin/activate
 ## 2 - Run tests
 ### 2.1 - Execute following command in the root of project folder
 ```
-python -m pytest ./tests
+python -m pytest ./tests/features/
 ```
 ### 2.2 - Generate test report with pytest
 ```
-python -m pytest --html=report.html ./tests
+python -m pytest --html=report.html ./tests/features/
 ```

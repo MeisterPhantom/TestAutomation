@@ -1,6 +1,6 @@
 from pytest_bdd import scenarios, given, when, then, parsers
 from configurations.conftest import *
-from src.pages.Login.login_demoqa_page import LoginDemoqaPage
+from src.pages.login.login_demoqa_page import LoginDemoqaPage
 from src.pages.home.home_demoqa_page import HomeDemoqaPage
 from src.pages.modals.modals_demoqa_page import ModalsDemoqaPage
 from src.pages.modules.modules_demoqa_page import ModulesDemoqaPage
@@ -11,6 +11,7 @@ from src.pages.form.form_demoqa_page import FormDemoqaPage
 from src.pages.profile.profile_demoqa_page import ProfileDemoqaPage
 from src.pages.books.books_demoqa_page import BooksDemoqaPage
 
+scenarios('../features/test_demoqa_books.feature')
 scenarios('../features/test_demoqa.feature')
 
 
@@ -29,7 +30,7 @@ def select_section(browser, section):
 @when(parsers.parse('I select the option "{option}"'))
 @when('I select the option "<option>"')
 def select_option(browser, option):
-    browser.implicitly_wait(5)
+    browser.implicitly_wait(10)
     ModulesDemoqaPage(browser).select_list_option(option)
 
 
@@ -49,10 +50,10 @@ def download_action(browser):
     UpDownLoadPage(browser).click_download()
 
 
-@then(parsers.parse('I fill the form with "{first_name}", "{last_name}", "{email}", '
+@then(parsers.parse('I fill the form section with "{first_name}", "{last_name}", "{email}", '
                     '"{mobile}", "{date_of_birth}", "{subjects}", and "{current_address}"'))
-def fill_form(browser, first_name, last_name, email, mobile, date_of_birth, subjects, current_address):
-    FormDemoqaPage(browser).send_field_information(first_name, last_name, mobile, date_of_birth, subjects,
+def fill_form_practice(browser, first_name, last_name, email, mobile, date_of_birth, subjects, current_address):
+    FormDemoqaPage(browser).send_field_information(first_name, last_name, email, mobile, date_of_birth, subjects,
                                                    current_address)
 
 
@@ -87,7 +88,8 @@ def validate_small_modal(browser, message):
     ModalsDemoqaPage(browser).show_small_modal_and_validate(message)
 
 
-@when(parsers.parse('I fill the form with "{username}", "{password}"'))
+@when(parsers.parse('I fill the login form with "{username}", "{password}"'))
+@when("I fill the form with '{username}', '{password}'")
 def login(browser, username, password):
     LoginDemoqaPage(browser).send_login_information(username, password)
 
