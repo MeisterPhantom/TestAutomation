@@ -1,5 +1,7 @@
 {
     "browser": "Chrome",
     "implicit_wait": 10,
-    "url_remote": "https://practicetestautomation.com/"
+    "url_remote": "https://practicetestautomation.com/",
+    "username": "student",
+    "password": "Password123"
 }

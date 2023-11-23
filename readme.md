@@ -1,39 +1,50 @@
-# TestAutomation
+# Project for API's automation
 
-## 1 - Create o replicate virtual environment
+### 1 - Create o replicate virtual environment
 
-**note:** You have installed one version of python3.x
+To do that, its necessary have installed python in the local machine if you don't have it you can download in the following link
+
+[Python Download Page](https://www.python.org/downloads/)
+
+After installed python, open a command line or console terminal and following the next steps:
 
 From console terminal
 
-### 1.1 - Install pipenv library
+1 - Install pipenv library
 
-**Note:** Validate if you have pip library install in your computer
+**Note:** Validate if you have pip library install in your computer. If you don't have it, you can install in the following page [Pip official page](https://pypi.org/project/pip/)
 
 ```
 pip install pipenv
 ```
-### 1.2 - Clone or download the repository
 
-### 1.3 - From root folder project
+2 - Clone or download the repository
 
+3 - From root folder project, execute the following sentence
+```
+pipenv install
+```
 ```
 pipenv shell
 ```
 **_This command recreate the virtual environment, be careful when the environment is created, you should see the path where the virtual environment was created_**
 
-### 1.4 - For initiate the virtual environment.
+4 - For initiate the virtual environment.
 
 ```
 source ./path/virtual/environment/bin/activate
 ```
+note that the name of the virtual environment appears at the beginning of the command line. This indicates that you are already working with the virtual environment 
+![img.png](img.png)
 
-## 2 - Run tests
-### 2.1 - Execute following command in the root of project folder
+### 3 - Run Tests ###
+
+1 - For execute the test, execute the follow command
 ```
-python -m pytest ./tests/features/
+robot -d results tests
 ```
-### 2.2 - Generate test report with pytest
-```
-python -m pytest --html=report.html ./tests/features/
-```
+
+2 - For review the results of the execution tests, [CLICK HERE](./results/report.html)
+### 4 - Test Plan File ###
+
+You can consult the test plan in the following link: [Test Plan](./PLAN%20DE%20PRUEBAS%20-%20WEB.pdf)
