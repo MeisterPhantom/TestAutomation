@@ -4,14 +4,14 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-selenium = "*"
-pytest = "~=7.1.2"
-assertpy = "~=1.1"
-pytest-bdd = "~=6.1.1"
-webdriver-manager = "~=3.8.6"
-pytest-html = "*"
+robotframework = "*"
+robotframework-seleniumlibrary = "*"
+webdrivermanager = "*"
 
 [dev-packages]
+robotframework = "*"
+robotframework-seleniumlibrary = "*"
+webdrivermanager = "*"
 
 [requires]
 python_version = "3.8"
